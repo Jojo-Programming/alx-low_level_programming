@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -s $CFILE -o CFILE=2
+gcc -s $CFILE -o CFILE=2-main.c
