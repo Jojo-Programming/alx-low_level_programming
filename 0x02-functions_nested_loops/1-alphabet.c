@@ -1,11 +1,16 @@
-#include <main.h>
+#include "main.h"
+#include <stdio.h>
 /**
- * print_alphabets 10 times
- * written by Mpagi Jolly
- * Return: Always 0 (success)
+ * print_alphabet - prints all alphabet in lowercase
+ *
+ * Return: always 0
  */
 void print_alphabet(void)
-	char letter;
-	for (letter = 'a'; letter <= '2'; letter++)
-	_putchar(letter);
-	_putchar('\n');
+{
+char la;
+
+for (la = 'a' ; la <= 'z' ; la++)
+putchar(la);
+putchar('\n');
+
+}
