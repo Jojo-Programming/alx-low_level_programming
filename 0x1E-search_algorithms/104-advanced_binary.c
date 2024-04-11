@@ -32,8 +32,7 @@ half--;
 if (value == array[half])
 
 {
-
-	if (half > 0)
+if (half > 0)
 return (rec_search(array, half + 1, value));
 
 return ((int)half);

@@ -32,8 +32,7 @@ low, high);
 
 for (i = low; i <= high; i++)
 {
-
-	if (i < size)
+if (i < size)
 {
 printf("Value checked array[%lu] = [%d]\n",
 i, array[i]);
